@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Monopoly_tool </title>
+  <!-- jQuery読み込み -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- 自分で書いたCSSとJS -->
+  <link rel="stylesheet" href="MJ_stylesheet.css">
+  <script src="MJ_main.js"> </script>
+  <!-- BootstrapのCSS読み込み -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class=header>麻雀支援用 簡易webアプリ</header>
+
+
+<div class="container">
+  <!-- サイコロ要素 -->
+  <div class="row justify-content-md-center">
+      <div class="col-md-auto">
+        <div class="dice1" id="dice1"> </div>
+      </div>
+      <div class="col-md-auto">
+        <div class="dice2" id="dice2"></div>
+      </div>
+      <div class="col col-lg-1">
+        <div class="dice_total" id="dice_total"> </div>
+      </div>
+    </div>
+  <div class="row justify-content-md-center">
+    <div class="col-md-auto">
+    <p>
+      <input class="btn1" type="button" id="btn1" value="サイコロを振る" onclick="dice_roller()">
+    </p>
+    </div>
+  </div>
+  <div class="row justify-content-md-center">
+    <div class="col-md-auto">
+      <div class="ESWN" id="ESWN" > </div>
+    </div>
+  </div>
+</div>
+  <footer class=footer> Mahjong tool for personal use only </footer>
+</body>
+
+</html>
