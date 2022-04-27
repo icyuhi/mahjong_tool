@@ -12,6 +12,10 @@
   width:100vw;
 }
 
+.container {
+  padding-top: 25vw;
+}
+
 .dice_total {
   font-size:5vw;
 }
