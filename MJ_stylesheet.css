@@ -6,14 +6,11 @@
 
 .header {
   padding-top: 2vw;
+  padding-bottom: 20vw;
   text-align: center;
   font-size:2vw;
   height:8vw;
   width:100vw;
-}
-
-.container {
-  padding-top: 25vw;
 }
 
 .dice_total {
@@ -36,6 +33,7 @@
 }
 
 .footer {
+  padding-top: 10vw;
   text-align: center;
   font-size:1.5vw;
   margin-top:5vw;
